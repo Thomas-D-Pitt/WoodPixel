@@ -206,6 +206,8 @@ int main(int argc, char *argv[])
   matcher.target().response.render();
   matcher.textures()[0][0].response.render();
   */
+  int count = 0;
+  int patches_to_fit = patches_old.size();
   try
   {
     while (matcher.find_next_patch_adaptive())
@@ -242,6 +244,9 @@ int main(int argc, char *argv[])
           cv::imwrite((path_steps / "textures" / (std::to_string(i) + "_" + filename)).string(), masked_texture_scaled);
         }
       }
+      
+      std::cout << "fit patch " << count << "/" << patches_to_fit << std::endl;
+      count++;
 
       if (visualization)
       {
