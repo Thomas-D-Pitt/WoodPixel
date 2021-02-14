@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/thomas/Desktop/build/tools/render_target/render_target.cpp
+/home/tad022002/WoodPixel/tools/render_target/render_target.cpp
 config.h
-/home/thomas/Desktop/build/tools/render_target/config.h
+/home/tad022002/WoodPixel/tools/render_target/config.h
 iostream
 -
 boost/filesystem.hpp
@@ -20,9 +20,9 @@ boost/property_tree/json_parser.hpp
 boost/property_tree/ptree.hpp
 -
 patch.hpp
-/home/thomas/Desktop/build/tools/render_target/patch.hpp
+/home/tad022002/WoodPixel/tools/render_target/patch.hpp
 texture.hpp
-/home/thomas/Desktop/build/tools/render_target/texture.hpp
+/home/tad022002/WoodPixel/tools/render_target/texture.hpp
 
 /usr/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp

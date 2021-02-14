@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/thomas/Desktop/build/tools/fit_patches/fit_patches.cpp" "/home/thomas/Desktop/build/tools/fit_patches/CMakeFiles/fit_patches.dir/fit_patches.cpp.o"
+  "/home/tad022002/WoodPixel/tools/fit_patches/fit_patches.cpp" "/home/tad022002/WoodPixel/tools/fit_patches/CMakeFiles/fit_patches.dir/fit_patches.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -34,7 +34,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/thomas/Desktop/build/lib/CMakeFiles/trlib.dir/DependInfo.cmake"
+  "/home/tad022002/WoodPixel/lib/CMakeFiles/trlib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

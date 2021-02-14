@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/thomas/Desktop/build/tools/patches_from_edges/patches_from_edges.cpp
+/home/tad022002/WoodPixel/tools/patches_from_edges/patches_from_edges.cpp
 config.h
-/home/thomas/Desktop/build/tools/patches_from_edges/config.h
+/home/tad022002/WoodPixel/tools/patches_from_edges/config.h
 iostream
 -
 random
@@ -26,11 +26,11 @@ boost/property_tree/ptree.hpp
 opencv2/opencv.hpp
 -
 bezier_curve.hpp
-/home/thomas/Desktop/build/tools/patches_from_edges/bezier_curve.hpp
+/home/tad022002/WoodPixel/tools/patches_from_edges/bezier_curve.hpp
 blob.hpp
-/home/thomas/Desktop/build/tools/patches_from_edges/blob.hpp
+/home/tad022002/WoodPixel/tools/patches_from_edges/blob.hpp
 patch_region.hpp
-/home/thomas/Desktop/build/tools/patches_from_edges/patch_region.hpp
+/home/tad022002/WoodPixel/tools/patches_from_edges/patch_region.hpp
 
 /usr/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp

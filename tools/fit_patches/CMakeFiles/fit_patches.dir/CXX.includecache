@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/thomas/Desktop/build/tools/fit_patches/fit_patches.cpp
+/home/tad022002/WoodPixel/tools/fit_patches/fit_patches.cpp
 config.h
-/home/thomas/Desktop/build/tools/fit_patches/config.h
+/home/tad022002/WoodPixel/tools/fit_patches/config.h
 iomanip
 -
 iostream
@@ -24,7 +24,7 @@ boost/property_tree/json_parser.hpp
 boost/property_tree/ptree.hpp
 -
 tree_match.hpp
-/home/thomas/Desktop/build/tools/fit_patches/tree_match.hpp
+/home/tad022002/WoodPixel/tools/fit_patches/tree_match.hpp
 
 /usr/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp

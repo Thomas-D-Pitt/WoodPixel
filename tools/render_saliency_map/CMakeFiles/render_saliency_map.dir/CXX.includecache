@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/thomas/Desktop/build/tools/render_saliency_map/render_saliency_map.cpp
+/home/tad022002/WoodPixel/tools/render_saliency_map/render_saliency_map.cpp
 config.h
-/home/thomas/Desktop/build/tools/render_saliency_map/config.h
+/home/tad022002/WoodPixel/tools/render_saliency_map/config.h
 iostream
 -
 boost/filesystem.hpp
@@ -20,7 +20,7 @@ boost/property_tree/json_parser.hpp
 boost/property_tree/ptree.hpp
 -
 tree_match.hpp
-/home/thomas/Desktop/build/tools/render_saliency_map/tree_match.hpp
+/home/tad022002/WoodPixel/tools/render_saliency_map/tree_match.hpp
 
 /usr/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp

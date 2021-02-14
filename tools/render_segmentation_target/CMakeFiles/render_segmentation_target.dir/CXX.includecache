@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/thomas/Desktop/build/tools/render_segmentation_target/render_segmentation_target.cpp
+/home/tad022002/WoodPixel/tools/render_segmentation_target/render_segmentation_target.cpp
 config.h
-/home/thomas/Desktop/build/tools/render_segmentation_target/config.h
+/home/tad022002/WoodPixel/tools/render_segmentation_target/config.h
 iostream
 -
 boost/filesystem.hpp
@@ -24,11 +24,11 @@ opencv2/opencv.hpp
 opencv2/ximgproc.hpp
 -
 blob.hpp
-/home/thomas/Desktop/build/tools/render_segmentation_target/blob.hpp
+/home/tad022002/WoodPixel/tools/render_segmentation_target/blob.hpp
 patch.hpp
-/home/thomas/Desktop/build/tools/render_segmentation_target/patch.hpp
+/home/tad022002/WoodPixel/tools/render_segmentation_target/patch.hpp
 texture.hpp
-/home/thomas/Desktop/build/tools/render_segmentation_target/texture.hpp
+/home/tad022002/WoodPixel/tools/render_segmentation_target/texture.hpp
 
 /usr/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp

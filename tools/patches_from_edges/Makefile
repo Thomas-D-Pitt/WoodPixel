@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thomas/Desktop/build
+CMAKE_SOURCE_DIR = /home/tad022002/WoodPixel
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thomas/Desktop/build
+CMAKE_BINARY_DIR = /home/tad022002/WoodPixel
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/thomas/Desktop/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/Desktop/build/CMakeFiles /home/thomas/Desktop/build/tools/patches_from_edges/CMakeFiles/progress.marks
-	cd /home/thomas/Desktop/build && $(MAKE) -f CMakeFiles/Makefile2 tools/patches_from_edges/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/Desktop/build/CMakeFiles 0
+	cd /home/tad022002/WoodPixel && $(CMAKE_COMMAND) -E cmake_progress_start /home/tad022002/WoodPixel/CMakeFiles /home/tad022002/WoodPixel/tools/patches_from_edges/CMakeFiles/progress.marks
+	cd /home/tad022002/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/patches_from_edges/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tad022002/WoodPixel/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/thomas/Desktop/build && $(MAKE) -f CMakeFiles/Makefile2 tools/patches_from_edges/clean
+	cd /home/tad022002/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/patches_from_edges/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/thomas/Desktop/build && $(MAKE) -f CMakeFiles/Makefile2 tools/patches_from_edges/preinstall
+	cd /home/tad022002/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/patches_from_edges/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/thomas/Desktop/build && $(MAKE) -f CMakeFiles/Makefile2 tools/patches_from_edges/preinstall
+	cd /home/tad022002/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/patches_from_edges/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/thomas/Desktop/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/tad022002/WoodPixel && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tools/patches_from_edges/CMakeFiles/patches_from_edges.dir/rule:
-	cd /home/thomas/Desktop/build && $(MAKE) -f CMakeFiles/Makefile2 tools/patches_from_edges/CMakeFiles/patches_from_edges.dir/rule
+	cd /home/tad022002/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/patches_from_edges/CMakeFiles/patches_from_edges.dir/rule
 .PHONY : tools/patches_from_edges/CMakeFiles/patches_from_edges.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ patches_from_edges: tools/patches_from_edges/CMakeFiles/patches_from_edges.dir/r
 
 # fast build rule for target.
 patches_from_edges/fast:
-	cd /home/thomas/Desktop/build && $(MAKE) -f tools/patches_from_edges/CMakeFiles/patches_from_edges.dir/build.make tools/patches_from_edges/CMakeFiles/patches_from_edges.dir/build
+	cd /home/tad022002/WoodPixel && $(MAKE) -f tools/patches_from_edges/CMakeFiles/patches_from_edges.dir/build.make tools/patches_from_edges/CMakeFiles/patches_from_edges.dir/build
 .PHONY : patches_from_edges/fast
 
 patches_from_edges.o: patches_from_edges.cpp.o
@@ -131,7 +131,7 @@ patches_from_edges.o: patches_from_edges.cpp.o
 
 # target to build an object file
 patches_from_edges.cpp.o:
-	cd /home/thomas/Desktop/build && $(MAKE) -f tools/patches_from_edges/CMakeFiles/patches_from_edges.dir/build.make tools/patches_from_edges/CMakeFiles/patches_from_edges.dir/patches_from_edges.cpp.o
+	cd /home/tad022002/WoodPixel && $(MAKE) -f tools/patches_from_edges/CMakeFiles/patches_from_edges.dir/build.make tools/patches_from_edges/CMakeFiles/patches_from_edges.dir/patches_from_edges.cpp.o
 .PHONY : patches_from_edges.cpp.o
 
 patches_from_edges.i: patches_from_edges.cpp.i
@@ -140,7 +140,7 @@ patches_from_edges.i: patches_from_edges.cpp.i
 
 # target to preprocess a source file
 patches_from_edges.cpp.i:
-	cd /home/thomas/Desktop/build && $(MAKE) -f tools/patches_from_edges/CMakeFiles/patches_from_edges.dir/build.make tools/patches_from_edges/CMakeFiles/patches_from_edges.dir/patches_from_edges.cpp.i
+	cd /home/tad022002/WoodPixel && $(MAKE) -f tools/patches_from_edges/CMakeFiles/patches_from_edges.dir/build.make tools/patches_from_edges/CMakeFiles/patches_from_edges.dir/patches_from_edges.cpp.i
 .PHONY : patches_from_edges.cpp.i
 
 patches_from_edges.s: patches_from_edges.cpp.s
@@ -149,7 +149,7 @@ patches_from_edges.s: patches_from_edges.cpp.s
 
 # target to generate assembly for a file
 patches_from_edges.cpp.s:
-	cd /home/thomas/Desktop/build && $(MAKE) -f tools/patches_from_edges/CMakeFiles/patches_from_edges.dir/build.make tools/patches_from_edges/CMakeFiles/patches_from_edges.dir/patches_from_edges.cpp.s
+	cd /home/tad022002/WoodPixel && $(MAKE) -f tools/patches_from_edges/CMakeFiles/patches_from_edges.dir/build.make tools/patches_from_edges/CMakeFiles/patches_from_edges.dir/patches_from_edges.cpp.s
 .PHONY : patches_from_edges.cpp.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/thomas/Desktop/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/tad022002/WoodPixel && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

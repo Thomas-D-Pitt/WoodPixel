@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/thomas/Desktop/build/tools/export_for_fab/export_for_fab.cpp
+/home/tad022002/WoodPixel/tools/export_for_fab/export_for_fab.cpp
 config.h
-/home/thomas/Desktop/build/tools/export_for_fab/config.h
+/home/tad022002/WoodPixel/tools/export_for_fab/config.h
 iostream
 -
 boost/filesystem.hpp
@@ -20,13 +20,13 @@ boost/property_tree/json_parser.hpp
 boost/property_tree/ptree.hpp
 -
 cut_saver.hpp
-/home/thomas/Desktop/build/tools/export_for_fab/cut_saver.hpp
+/home/tad022002/WoodPixel/tools/export_for_fab/cut_saver.hpp
 patch.hpp
-/home/thomas/Desktop/build/tools/export_for_fab/patch.hpp
+/home/tad022002/WoodPixel/tools/export_for_fab/patch.hpp
 material_panel.hpp
-/home/thomas/Desktop/build/tools/export_for_fab/material_panel.hpp
+/home/tad022002/WoodPixel/tools/export_for_fab/material_panel.hpp
 svg_saver.hpp
-/home/thomas/Desktop/build/tools/export_for_fab/svg_saver.hpp
+/home/tad022002/WoodPixel/tools/export_for_fab/svg_saver.hpp
 
 /usr/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp

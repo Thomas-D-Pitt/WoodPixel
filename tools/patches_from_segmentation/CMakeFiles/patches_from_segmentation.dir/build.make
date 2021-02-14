@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thomas/Desktop/build
+CMAKE_SOURCE_DIR = /home/tad022002/WoodPixel
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thomas/Desktop/build
+CMAKE_BINARY_DIR = /home/tad022002/WoodPixel
 
 # Include any dependencies generated for this target.
 include tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/depend.make
@@ -59,16 +59,16 @@ include tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir
 
 tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/patches_from_segmentation.cpp.o: tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/flags.make
 tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/patches_from_segmentation.cpp.o: tools/patches_from_segmentation/patches_from_segmentation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/Desktop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/patches_from_segmentation.cpp.o"
-	cd /home/thomas/Desktop/build/tools/patches_from_segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/patches_from_segmentation.dir/patches_from_segmentation.cpp.o -c /home/thomas/Desktop/build/tools/patches_from_segmentation/patches_from_segmentation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tad022002/WoodPixel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/patches_from_segmentation.cpp.o"
+	cd /home/tad022002/WoodPixel/tools/patches_from_segmentation && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/patches_from_segmentation.dir/patches_from_segmentation.cpp.o -c /home/tad022002/WoodPixel/tools/patches_from_segmentation/patches_from_segmentation.cpp
 
 tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/patches_from_segmentation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/patches_from_segmentation.dir/patches_from_segmentation.cpp.i"
-	cd /home/thomas/Desktop/build/tools/patches_from_segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas/Desktop/build/tools/patches_from_segmentation/patches_from_segmentation.cpp > CMakeFiles/patches_from_segmentation.dir/patches_from_segmentation.cpp.i
+	cd /home/tad022002/WoodPixel/tools/patches_from_segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tad022002/WoodPixel/tools/patches_from_segmentation/patches_from_segmentation.cpp > CMakeFiles/patches_from_segmentation.dir/patches_from_segmentation.cpp.i
 
 tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/patches_from_segmentation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/patches_from_segmentation.dir/patches_from_segmentation.cpp.s"
-	cd /home/thomas/Desktop/build/tools/patches_from_segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas/Desktop/build/tools/patches_from_segmentation/patches_from_segmentation.cpp -o CMakeFiles/patches_from_segmentation.dir/patches_from_segmentation.cpp.s
+	cd /home/tad022002/WoodPixel/tools/patches_from_segmentation && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tad022002/WoodPixel/tools/patches_from_segmentation/patches_from_segmentation.cpp -o CMakeFiles/patches_from_segmentation.dir/patches_from_segmentation.cpp.s
 
 # Object files for target patches_from_segmentation
 patches_from_segmentation_OBJECTS = \
@@ -141,8 +141,8 @@ bin/patches_from_segmentation: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.2.
 bin/patches_from_segmentation: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0
 bin/patches_from_segmentation: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
 bin/patches_from_segmentation: tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thomas/Desktop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/patches_from_segmentation"
-	cd /home/thomas/Desktop/build/tools/patches_from_segmentation && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/patches_from_segmentation.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tad022002/WoodPixel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/patches_from_segmentation"
+	cd /home/tad022002/WoodPixel/tools/patches_from_segmentation && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/patches_from_segmentation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/build: bin/patches_from_segmentation
@@ -150,10 +150,10 @@ tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/build: 
 .PHONY : tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/build
 
 tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/clean:
-	cd /home/thomas/Desktop/build/tools/patches_from_segmentation && $(CMAKE_COMMAND) -P CMakeFiles/patches_from_segmentation.dir/cmake_clean.cmake
+	cd /home/tad022002/WoodPixel/tools/patches_from_segmentation && $(CMAKE_COMMAND) -P CMakeFiles/patches_from_segmentation.dir/cmake_clean.cmake
 .PHONY : tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/clean
 
 tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/depend:
-	cd /home/thomas/Desktop/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thomas/Desktop/build /home/thomas/Desktop/build/tools/patches_from_segmentation /home/thomas/Desktop/build /home/thomas/Desktop/build/tools/patches_from_segmentation /home/thomas/Desktop/build/tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tad022002/WoodPixel && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tad022002/WoodPixel /home/tad022002/WoodPixel/tools/patches_from_segmentation /home/tad022002/WoodPixel /home/tad022002/WoodPixel/tools/patches_from_segmentation /home/tad022002/WoodPixel/tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/depend
 

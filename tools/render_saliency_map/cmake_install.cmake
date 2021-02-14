@@ -1,4 +1,4 @@
-# Install script for directory: /home/thomas/Desktop/build/tools/render_saliency_map
+# Install script for directory: /home/tad022002/WoodPixel/tools/render_saliency_map
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

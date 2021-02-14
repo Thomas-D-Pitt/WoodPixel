@@ -1,4 +1,4 @@
-# Install script for directory: /home/thomas/Desktop/build/tools/export_for_fab
+# Install script for directory: /home/tad022002/WoodPixel/tools/export_for_fab
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

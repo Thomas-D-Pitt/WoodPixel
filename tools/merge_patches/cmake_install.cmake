@@ -1,4 +1,4 @@
-# Install script for directory: /home/thomas/Desktop/build/tools/merge_patches
+# Install script for directory: /home/tad022002/WoodPixel/tools/merge_patches
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

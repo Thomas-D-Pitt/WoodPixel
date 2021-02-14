@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thomas/Desktop/build
+CMAKE_SOURCE_DIR = /home/tad022002/WoodPixel
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thomas/Desktop/build
+CMAKE_BINARY_DIR = /home/tad022002/WoodPixel
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/thomas/Desktop/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/Desktop/build/CMakeFiles /home/thomas/Desktop/build/tools/patches_from_segmentation/CMakeFiles/progress.marks
-	cd /home/thomas/Desktop/build && $(MAKE) -f CMakeFiles/Makefile2 tools/patches_from_segmentation/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/Desktop/build/CMakeFiles 0
+	cd /home/tad022002/WoodPixel && $(CMAKE_COMMAND) -E cmake_progress_start /home/tad022002/WoodPixel/CMakeFiles /home/tad022002/WoodPixel/tools/patches_from_segmentation/CMakeFiles/progress.marks
+	cd /home/tad022002/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/patches_from_segmentation/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tad022002/WoodPixel/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/thomas/Desktop/build && $(MAKE) -f CMakeFiles/Makefile2 tools/patches_from_segmentation/clean
+	cd /home/tad022002/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/patches_from_segmentation/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/thomas/Desktop/build && $(MAKE) -f CMakeFiles/Makefile2 tools/patches_from_segmentation/preinstall
+	cd /home/tad022002/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/patches_from_segmentation/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/thomas/Desktop/build && $(MAKE) -f CMakeFiles/Makefile2 tools/patches_from_segmentation/preinstall
+	cd /home/tad022002/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/patches_from_segmentation/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/thomas/Desktop/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/tad022002/WoodPixel && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/rule:
-	cd /home/thomas/Desktop/build && $(MAKE) -f CMakeFiles/Makefile2 tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/rule
+	cd /home/tad022002/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/rule
 .PHONY : tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ patches_from_segmentation: tools/patches_from_segmentation/CMakeFiles/patches_fr
 
 # fast build rule for target.
 patches_from_segmentation/fast:
-	cd /home/thomas/Desktop/build && $(MAKE) -f tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/build.make tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/build
+	cd /home/tad022002/WoodPixel && $(MAKE) -f tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/build.make tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/build
 .PHONY : patches_from_segmentation/fast
 
 patches_from_segmentation.o: patches_from_segmentation.cpp.o
@@ -131,7 +131,7 @@ patches_from_segmentation.o: patches_from_segmentation.cpp.o
 
 # target to build an object file
 patches_from_segmentation.cpp.o:
-	cd /home/thomas/Desktop/build && $(MAKE) -f tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/build.make tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/patches_from_segmentation.cpp.o
+	cd /home/tad022002/WoodPixel && $(MAKE) -f tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/build.make tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/patches_from_segmentation.cpp.o
 .PHONY : patches_from_segmentation.cpp.o
 
 patches_from_segmentation.i: patches_from_segmentation.cpp.i
@@ -140,7 +140,7 @@ patches_from_segmentation.i: patches_from_segmentation.cpp.i
 
 # target to preprocess a source file
 patches_from_segmentation.cpp.i:
-	cd /home/thomas/Desktop/build && $(MAKE) -f tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/build.make tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/patches_from_segmentation.cpp.i
+	cd /home/tad022002/WoodPixel && $(MAKE) -f tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/build.make tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/patches_from_segmentation.cpp.i
 .PHONY : patches_from_segmentation.cpp.i
 
 patches_from_segmentation.s: patches_from_segmentation.cpp.s
@@ -149,7 +149,7 @@ patches_from_segmentation.s: patches_from_segmentation.cpp.s
 
 # target to generate assembly for a file
 patches_from_segmentation.cpp.s:
-	cd /home/thomas/Desktop/build && $(MAKE) -f tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/build.make tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/patches_from_segmentation.cpp.s
+	cd /home/tad022002/WoodPixel && $(MAKE) -f tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/build.make tools/patches_from_segmentation/CMakeFiles/patches_from_segmentation.dir/patches_from_segmentation.cpp.s
 .PHONY : patches_from_segmentation.cpp.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/thomas/Desktop/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/tad022002/WoodPixel && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

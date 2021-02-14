@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thomas/Desktop/build
+CMAKE_SOURCE_DIR = /home/tad022002/WoodPixel
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thomas/Desktop/build
+CMAKE_BINARY_DIR = /home/tad022002/WoodPixel
 
 # Include any dependencies generated for this target.
 include tools/render_segmentation_target/CMakeFiles/render_segmentation_target.dir/depend.make
@@ -59,16 +59,16 @@ include tools/render_segmentation_target/CMakeFiles/render_segmentation_target.d
 
 tools/render_segmentation_target/CMakeFiles/render_segmentation_target.dir/render_segmentation_target.cpp.o: tools/render_segmentation_target/CMakeFiles/render_segmentation_target.dir/flags.make
 tools/render_segmentation_target/CMakeFiles/render_segmentation_target.dir/render_segmentation_target.cpp.o: tools/render_segmentation_target/render_segmentation_target.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/Desktop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/render_segmentation_target/CMakeFiles/render_segmentation_target.dir/render_segmentation_target.cpp.o"
-	cd /home/thomas/Desktop/build/tools/render_segmentation_target && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/render_segmentation_target.dir/render_segmentation_target.cpp.o -c /home/thomas/Desktop/build/tools/render_segmentation_target/render_segmentation_target.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tad022002/WoodPixel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/render_segmentation_target/CMakeFiles/render_segmentation_target.dir/render_segmentation_target.cpp.o"
+	cd /home/tad022002/WoodPixel/tools/render_segmentation_target && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/render_segmentation_target.dir/render_segmentation_target.cpp.o -c /home/tad022002/WoodPixel/tools/render_segmentation_target/render_segmentation_target.cpp
 
 tools/render_segmentation_target/CMakeFiles/render_segmentation_target.dir/render_segmentation_target.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/render_segmentation_target.dir/render_segmentation_target.cpp.i"
-	cd /home/thomas/Desktop/build/tools/render_segmentation_target && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas/Desktop/build/tools/render_segmentation_target/render_segmentation_target.cpp > CMakeFiles/render_segmentation_target.dir/render_segmentation_target.cpp.i
+	cd /home/tad022002/WoodPixel/tools/render_segmentation_target && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tad022002/WoodPixel/tools/render_segmentation_target/render_segmentation_target.cpp > CMakeFiles/render_segmentation_target.dir/render_segmentation_target.cpp.i
 
 tools/render_segmentation_target/CMakeFiles/render_segmentation_target.dir/render_segmentation_target.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/render_segmentation_target.dir/render_segmentation_target.cpp.s"
-	cd /home/thomas/Desktop/build/tools/render_segmentation_target && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas/Desktop/build/tools/render_segmentation_target/render_segmentation_target.cpp -o CMakeFiles/render_segmentation_target.dir/render_segmentation_target.cpp.s
+	cd /home/tad022002/WoodPixel/tools/render_segmentation_target && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tad022002/WoodPixel/tools/render_segmentation_target/render_segmentation_target.cpp -o CMakeFiles/render_segmentation_target.dir/render_segmentation_target.cpp.s
 
 # Object files for target render_segmentation_target
 render_segmentation_target_OBJECTS = \
@@ -141,8 +141,8 @@ bin/render_segmentation_target: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.2
 bin/render_segmentation_target: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0
 bin/render_segmentation_target: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
 bin/render_segmentation_target: tools/render_segmentation_target/CMakeFiles/render_segmentation_target.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thomas/Desktop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/render_segmentation_target"
-	cd /home/thomas/Desktop/build/tools/render_segmentation_target && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/render_segmentation_target.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tad022002/WoodPixel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/render_segmentation_target"
+	cd /home/tad022002/WoodPixel/tools/render_segmentation_target && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/render_segmentation_target.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tools/render_segmentation_target/CMakeFiles/render_segmentation_target.dir/build: bin/render_segmentation_target
@@ -150,10 +150,10 @@ tools/render_segmentation_target/CMakeFiles/render_segmentation_target.dir/build
 .PHONY : tools/render_segmentation_target/CMakeFiles/render_segmentation_target.dir/build
 
 tools/render_segmentation_target/CMakeFiles/render_segmentation_target.dir/clean:
-	cd /home/thomas/Desktop/build/tools/render_segmentation_target && $(CMAKE_COMMAND) -P CMakeFiles/render_segmentation_target.dir/cmake_clean.cmake
+	cd /home/tad022002/WoodPixel/tools/render_segmentation_target && $(CMAKE_COMMAND) -P CMakeFiles/render_segmentation_target.dir/cmake_clean.cmake
 .PHONY : tools/render_segmentation_target/CMakeFiles/render_segmentation_target.dir/clean
 
 tools/render_segmentation_target/CMakeFiles/render_segmentation_target.dir/depend:
-	cd /home/thomas/Desktop/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thomas/Desktop/build /home/thomas/Desktop/build/tools/render_segmentation_target /home/thomas/Desktop/build /home/thomas/Desktop/build/tools/render_segmentation_target /home/thomas/Desktop/build/tools/render_segmentation_target/CMakeFiles/render_segmentation_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tad022002/WoodPixel && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tad022002/WoodPixel /home/tad022002/WoodPixel/tools/render_segmentation_target /home/tad022002/WoodPixel /home/tad022002/WoodPixel/tools/render_segmentation_target /home/tad022002/WoodPixel/tools/render_segmentation_target/CMakeFiles/render_segmentation_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tools/render_segmentation_target/CMakeFiles/render_segmentation_target.dir/depend
 
