@@ -34,12 +34,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 void MorphGridFuture::loop()
 {
-	if (true)
-	{
-		m_save_state = true;
-		m_message = "Save state.";
-		return;
-	}
+
   handle_key_press();
 
   // DEBUG
