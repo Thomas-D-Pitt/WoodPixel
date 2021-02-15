@@ -1,0 +1,91 @@
+{
+  "panels": [
+  {
+      "texture": "wood2.jpeg",
+      "mask": "wood_mask.png",
+      "id": "furnier_02",
+      "scale": 1,
+      "dpi": 300.0,
+      
+      "markers_table_mm": [
+            {
+              "width": 100,
+              "height": 100,
+              "x": 0,
+              "y": 0,
+              "z": 0
+      	    }
+      	  ]
+    },
+    {
+      "texture": "wood3.png",
+      "mask": "wood_mask.png",
+      "id": "furnier_03",
+      "scale": 1,
+      "dpi": 300.0,
+      "markers_table_mm": [
+            {
+              "width": 100,
+              "height": 100,
+              "x": 0,
+              "y": 0,
+              "z": 0
+      	    }
+      	  ]
+    },
+    {
+      "texture": "wood4.jpeg",
+      "mask": "wood_mask.png",
+      "id": "furnier_04",
+      "scale": 1,
+      "dpi": 300.0,
+      "markers_table_mm": [
+            {
+              "width": 100,
+              "height": 100,
+              "x": 0,
+              "y": 0,
+              "z": 0
+      	    }
+      	  ]
+    },
+    {
+      "texture": "wood5.jpeg",
+      "mask": "wood_mask.png",
+      "id": "furnier_05",
+      "scale": 1,
+      "dpi": 300.0,
+      "markers_table_mm": [
+            {
+              "width": 100,
+              "height": 100,
+              "x": 0,
+              "y": 0,
+              "z": 0
+      	    }
+      	  ]
+    }
+	
+    
+  ],
+  "targets": [
+    {
+      "filename": "img.jpg",
+      "scale": 1.0,
+      "dpi": 300.0,
+      "morphed_grid": "grid.json"
+    }
+  ],
+  
+  "table_dimensions_mm": [
+	{
+		"width": [{"width": 800, "height": 800}],
+		"height": [{"width": 800, "height": 800}]
+  	
+	}
+  ],
+  "width": 800,
+  "height": 800
+  
+  
+}
