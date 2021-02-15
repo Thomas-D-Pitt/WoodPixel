@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.1" baseProfile="full"
+     width="304.8mm" height="177.8mm"
+     viewBox="0 0 3048000 1778000">
+  <defs>
+    <style type="text/css">
+      <![CDATA[
+        .str0 {stroke:red; stroke-width:1}
+        .str1 {stroke:green; stroke-width:1}
+        .str2 {stroke:black; stroke-width:1}
+        .fil0 {fill:none}
+        .fil1 {fill:black}
+        .fil2 {fill:green}
+        .fnt0 {text-anchor:'middle'; dominant-baseline:'central'; font-weight:normal; font-size:3pt; font-family:'Arial'; text-decoration:underline;}
+      ]]>
+    </style>
+  </defs>
+  <g id="Layer_x0020_1">
+    <metadata id="CorelCorpID_0Corel-Layer"/>
+    <rect class="str1" x="0" y="0" width="3.048e+06" height="1.778e+06" />
+    <circle class="fil0 str1" cx="0" cy="0" r="50000" />
+    <circle class="fil0 str1" cx="0" cy="0" r="50000" />
+    <circle class="fil0 str1" cx="0" cy="0" r="50000" />
+    <circle class="fil0 str1" cx="0" cy="0" r="50000" />
+    <circle class="fil0 str1" cx="0" cy="0" r="50000" />
+    <circle class="fil0 str1" cx="0" cy="0" r="50000" />
+    <circle class="fil0 str1" cx="0" cy="0" r="50000" />
+    <circle class="fil0 str1" cx="0" cy="0" r="50000" />
+    <circle class="fil0 str1" cx="0" cy="0" r="50000" />
+  </g>
+  <g id="Layer_x0020_2">
+    <metadata id="CorelCorpID_1Corel-Layer"/>
+    <path class="fil0 str0" d="M 3818134 22396551 C 4032181 22634274, 4245308 22870976, 4458981 23108284 C 4221514 23322782, 3984069 23537305, 3746667 23751877 C 3533117 23514704, 3320108 23278135, 3106022 23040368 C 3343322 22825684, 3580668 22611051, 3818134 22396551" />
+    <path class="fil0 str0" d="M 4282252 16140739 C 4122279 15863658, 3963111 15587970, 3803537 15311581 C 4080363 15151057, 4357156 14990476, 4633960 14829915 C 4793401 15106075, 4952490 15381625, 5112454 15658691 C 4835716 15819367, 4559002 15980083, 4282252 16140739" />
+  </g>
+  <g id="Layer_x0020_3">
+    <metadata id="CorelCorpID_2Corel-Layer"/>
+  <path class="fil0 str2" d=" M 3777850 23036879 L 3773622 23034873 L 3767682 23036347 L 3760030 23041298 L 3756017 23044912 L 3750292 23052004 L 3748207 23057758 L 3749760 23062172 L 3751687 23064313 L 3755915 23066318 L 3761855 23064846 L 3769507 23059895 L 3773520 23056281 L 3779244 23049189 L 3781330 23043435 L 3779778 23039020 L 3777850 23036879 M 3750292 23052004 L 3779244 23049189"/><path class="fil0 str2" d=" M 3754044 23077692 L 3734773 23056289"/><path class="fil0 str2" d=" M 3792304 23052932 L 3764213 23078225 M 3792304 23052932 L 3771921 23086787 M 3807720 23070053 L 3771921 23086787 M 3807720 23070053 L 3779630 23095346"/><path class="fil0 str2" d=" M 3814465 23077543 L 3786374 23102836 M 3814465 23077543 L 3826991 23091457 M 3801089 23089589 L 3808797 23098149 M 3786374 23102836 L 3798901 23116750"/>
+  <path class="fil0 str2" d=" M 4454382 15522076 L 4458100 15524918 L 4464217 15524711 L 4472731 15521458 L 4477408 15518758 L 4484482 15513011 L 4487718 15507817 L 4487117 15503176 L 4485677 15500682 L 4481958 15497840 L 4475842 15498046 L 4467328 15501300 L 4462651 15504000 L 4455577 15509747 L 4452340 15514941 L 4452941 15519582 L 4454382 15522076 M 4484482 15513011 L 4455577 15509747"/><path class="fil0 str2" d=" M 4486153 15487105 L 4500553 15512047"/><path class="fil0 str2" d=" M 4443581 15503370 L 4476317 15484470 M 4443581 15503370 L 4470557 15474493 M 4432062 15483416 L 4470557 15474493 M 4432062 15483416 L 4464797 15464516"/><path class="fil0 str2" d=" M 4427022 15474687 L 4459757 15455787 M 4427022 15474687 L 4417662 15458475 M 4442610 15465687 L 4436850 15455710"/>
+  </g>
+</svg>

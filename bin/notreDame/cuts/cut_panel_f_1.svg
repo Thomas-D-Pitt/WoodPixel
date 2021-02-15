@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.1" baseProfile="full"
+     width="304.8mm" height="177.8mm"
+     viewBox="0 0 3048000 1778000">
+  <defs>
+    <style type="text/css">
+      <![CDATA[
+        .str0 {stroke:red; stroke-width:1}
+        .str1 {stroke:green; stroke-width:1}
+        .str2 {stroke:black; stroke-width:1}
+        .fil0 {fill:none}
+        .fil1 {fill:black}
+        .fil2 {fill:green}
+        .fnt0 {text-anchor:'middle'; dominant-baseline:'central'; font-weight:normal; font-size:3pt; font-family:'Arial'; text-decoration:underline;}
+      ]]>
+    </style>
+  </defs>
+  <g id="Layer_x0020_1">
+    <metadata id="CorelCorpID_0Corel-Layer"/>
+    <rect class="str1" x="0" y="0" width="3.048e+06" height="1.778e+06" />
+    <circle class="fil0 str1" cx="0" cy="0" r="50000" />
+    <circle class="fil0 str1" cx="0" cy="0" r="50000" />
+    <circle class="fil0 str1" cx="0" cy="0" r="50000" />
+    <circle class="fil0 str1" cx="0" cy="0" r="50000" />
+    <circle class="fil0 str1" cx="0" cy="0" r="50000" />
+    <circle class="fil0 str1" cx="0" cy="0" r="50000" />
+    <circle class="fil0 str1" cx="0" cy="0" r="50000" />
+    <circle class="fil0 str1" cx="0" cy="0" r="50000" />
+    <circle class="fil0 str1" cx="0" cy="0" r="50000" />
+  </g>
+  <g id="Layer_x0020_2">
+    <metadata id="CorelCorpID_1Corel-Layer"/>
+    <path class="fil0 str0" d="M 1150207 1521835 C 837375 1455340, 524624 1388863, 212010 1322415 C 278743 1009450, 345468 696484, 412178 383515 C 724616 449926, 1037256 516379, 1350011 582857 C 1283415 895851, 1216813 1208843, 1150207 1521835" />
+  </g>
+  <g id="Layer_x0020_3">
+    <metadata id="CorelCorpID_2Corel-Layer"/>
+  <path class="fil0 str2" d=" M 805438 979911 L 810038 979048 L 813978 974365 L 817258 965861 L 818380 960579 L 818843 951477 L 817149 945596 L 813297 942937 L 810480 942338 L 805881 943201 L 801941 947884 L 798661 956388 L 797538 961670 L 797076 970773 L 798770 976653 L 802621 979312 L 805438 979911 M 818843 951477 L 797076 970773"/><path class="fil0 str2" d=" M 800709 932900 L 828880 938888"/><path class="fil0 str2" d=" M 766462 962425 L 767122 966246 L 769191 970366 L 771634 972726 L 777268 973923 L 780459 972761 L 784025 969839 L 786182 966617 L 788713 961634 L 790584 952831 L 790298 947249 L 789638 943429 L 787570 939309 L 785127 936949 L 779493 935752 L 776301 936913 L 772736 939836 L 770579 943058"/><path class="fil0 str2" d=" M 758011 960629 L 757637 962390 L 755480 965612 L 753697 967073 L 750506 968235 L 744871 967037 L 742429 964678 L 741394 962618 L 740734 958797 L 741483 955276 L 743640 952054 L 747580 947370 L 765407 932758 L 745688 928566"/>
+  </g>
+</svg>
