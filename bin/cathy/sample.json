@@ -66,10 +66,10 @@
   ],
   "targets": [
     {
-      "filename": "Null",
-      "scale": 1.0,
+      "filename": "img.jpg",
+      "scale": 1.5,
       "dpi": 300.0,
-      "morphed_grid": "grid.json"
+      "morphed_grid": "grid100.json"
     }
   ],
   "num_source_rotations": 15,
