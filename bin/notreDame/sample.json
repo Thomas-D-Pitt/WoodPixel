@@ -67,7 +67,7 @@
   "targets": [
     {
       "filename": "img.jpg",
-      "scale": 4.0,
+      "scale": 5.0,
       "dpi": 300.0,
       "morphed_grid": "grid.json"
     }
