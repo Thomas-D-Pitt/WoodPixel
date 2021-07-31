@@ -1,4 +1,4 @@
-# Install script for directory: /home/tad022002/WoodPixel/tools/fit_patches
+# Install script for directory: /home/thomas/Desktop/WoodPixel/tools/fit_patches
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

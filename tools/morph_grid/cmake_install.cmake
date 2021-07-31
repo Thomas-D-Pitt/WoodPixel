@@ -1,4 +1,4 @@
-# Install script for directory: /home/tad022002/WoodPixel/tools/morph_grid
+# Install script for directory: /home/thomas/Desktop/WoodPixel/tools/morph_grid
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-# Install script for directory: /home/tad022002/WoodPixel
+# Install script for directory: /home/thomas/Desktop/WoodPixel
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/tad022002/WoodPixel/lib/cmake_install.cmake")
-  include("/home/tad022002/WoodPixel/tools/cmake_install.cmake")
+  include("/home/thomas/Desktop/WoodPixel/lib/cmake_install.cmake")
+  include("/home/thomas/Desktop/WoodPixel/tools/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tad022002/WoodPixel/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/thomas/Desktop/WoodPixel/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

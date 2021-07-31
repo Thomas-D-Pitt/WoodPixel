@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tad022002/WoodPixel
+CMAKE_SOURCE_DIR = /home/thomas/Desktop/WoodPixel
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tad022002/WoodPixel
+CMAKE_BINARY_DIR = /home/thomas/Desktop/WoodPixel
 
 # Include any dependencies generated for this target.
 include tools/generate_training_data/CMakeFiles/generate_training_data.dir/depend.make
@@ -59,16 +59,16 @@ include tools/generate_training_data/CMakeFiles/generate_training_data.dir/flags
 
 tools/generate_training_data/CMakeFiles/generate_training_data.dir/generate_training_data.cpp.o: tools/generate_training_data/CMakeFiles/generate_training_data.dir/flags.make
 tools/generate_training_data/CMakeFiles/generate_training_data.dir/generate_training_data.cpp.o: tools/generate_training_data/generate_training_data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tad022002/WoodPixel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/generate_training_data/CMakeFiles/generate_training_data.dir/generate_training_data.cpp.o"
-	cd /home/tad022002/WoodPixel/tools/generate_training_data && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/generate_training_data.dir/generate_training_data.cpp.o -c /home/tad022002/WoodPixel/tools/generate_training_data/generate_training_data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thomas/Desktop/WoodPixel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/generate_training_data/CMakeFiles/generate_training_data.dir/generate_training_data.cpp.o"
+	cd /home/thomas/Desktop/WoodPixel/tools/generate_training_data && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/generate_training_data.dir/generate_training_data.cpp.o -c /home/thomas/Desktop/WoodPixel/tools/generate_training_data/generate_training_data.cpp
 
 tools/generate_training_data/CMakeFiles/generate_training_data.dir/generate_training_data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/generate_training_data.dir/generate_training_data.cpp.i"
-	cd /home/tad022002/WoodPixel/tools/generate_training_data && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tad022002/WoodPixel/tools/generate_training_data/generate_training_data.cpp > CMakeFiles/generate_training_data.dir/generate_training_data.cpp.i
+	cd /home/thomas/Desktop/WoodPixel/tools/generate_training_data && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thomas/Desktop/WoodPixel/tools/generate_training_data/generate_training_data.cpp > CMakeFiles/generate_training_data.dir/generate_training_data.cpp.i
 
 tools/generate_training_data/CMakeFiles/generate_training_data.dir/generate_training_data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/generate_training_data.dir/generate_training_data.cpp.s"
-	cd /home/tad022002/WoodPixel/tools/generate_training_data && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tad022002/WoodPixel/tools/generate_training_data/generate_training_data.cpp -o CMakeFiles/generate_training_data.dir/generate_training_data.cpp.s
+	cd /home/thomas/Desktop/WoodPixel/tools/generate_training_data && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thomas/Desktop/WoodPixel/tools/generate_training_data/generate_training_data.cpp -o CMakeFiles/generate_training_data.dir/generate_training_data.cpp.s
 
 # Object files for target generate_training_data
 generate_training_data_OBJECTS = \
@@ -141,8 +141,8 @@ bin/generate_training_data: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.2.0
 bin/generate_training_data: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0
 bin/generate_training_data: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
 bin/generate_training_data: tools/generate_training_data/CMakeFiles/generate_training_data.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tad022002/WoodPixel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/generate_training_data"
-	cd /home/tad022002/WoodPixel/tools/generate_training_data && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/generate_training_data.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thomas/Desktop/WoodPixel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/generate_training_data"
+	cd /home/thomas/Desktop/WoodPixel/tools/generate_training_data && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/generate_training_data.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tools/generate_training_data/CMakeFiles/generate_training_data.dir/build: bin/generate_training_data
@@ -150,10 +150,10 @@ tools/generate_training_data/CMakeFiles/generate_training_data.dir/build: bin/ge
 .PHONY : tools/generate_training_data/CMakeFiles/generate_training_data.dir/build
 
 tools/generate_training_data/CMakeFiles/generate_training_data.dir/clean:
-	cd /home/tad022002/WoodPixel/tools/generate_training_data && $(CMAKE_COMMAND) -P CMakeFiles/generate_training_data.dir/cmake_clean.cmake
+	cd /home/thomas/Desktop/WoodPixel/tools/generate_training_data && $(CMAKE_COMMAND) -P CMakeFiles/generate_training_data.dir/cmake_clean.cmake
 .PHONY : tools/generate_training_data/CMakeFiles/generate_training_data.dir/clean
 
 tools/generate_training_data/CMakeFiles/generate_training_data.dir/depend:
-	cd /home/tad022002/WoodPixel && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tad022002/WoodPixel /home/tad022002/WoodPixel/tools/generate_training_data /home/tad022002/WoodPixel /home/tad022002/WoodPixel/tools/generate_training_data /home/tad022002/WoodPixel/tools/generate_training_data/CMakeFiles/generate_training_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thomas/Desktop/WoodPixel && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thomas/Desktop/WoodPixel /home/thomas/Desktop/WoodPixel/tools/generate_training_data /home/thomas/Desktop/WoodPixel /home/thomas/Desktop/WoodPixel/tools/generate_training_data /home/thomas/Desktop/WoodPixel/tools/generate_training_data/CMakeFiles/generate_training_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tools/generate_training_data/CMakeFiles/generate_training_data.dir/depend
 

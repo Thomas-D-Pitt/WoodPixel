@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tad022002/WoodPixel
+CMAKE_SOURCE_DIR = /home/thomas/Desktop/WoodPixel
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tad022002/WoodPixel
+CMAKE_BINARY_DIR = /home/thomas/Desktop/WoodPixel
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/tad022002/WoodPixel && $(CMAKE_COMMAND) -E cmake_progress_start /home/tad022002/WoodPixel/CMakeFiles /home/tad022002/WoodPixel/tools/generate_training_data/CMakeFiles/progress.marks
-	cd /home/tad022002/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/generate_training_data/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tad022002/WoodPixel/CMakeFiles 0
+	cd /home/thomas/Desktop/WoodPixel && $(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/Desktop/WoodPixel/CMakeFiles /home/thomas/Desktop/WoodPixel/tools/generate_training_data/CMakeFiles/progress.marks
+	cd /home/thomas/Desktop/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/generate_training_data/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/Desktop/WoodPixel/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/tad022002/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/generate_training_data/clean
+	cd /home/thomas/Desktop/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/generate_training_data/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/tad022002/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/generate_training_data/preinstall
+	cd /home/thomas/Desktop/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/generate_training_data/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/tad022002/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/generate_training_data/preinstall
+	cd /home/thomas/Desktop/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/generate_training_data/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/tad022002/WoodPixel && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/thomas/Desktop/WoodPixel && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tools/generate_training_data/CMakeFiles/generate_training_data.dir/rule:
-	cd /home/tad022002/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/generate_training_data/CMakeFiles/generate_training_data.dir/rule
+	cd /home/thomas/Desktop/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/generate_training_data/CMakeFiles/generate_training_data.dir/rule
 .PHONY : tools/generate_training_data/CMakeFiles/generate_training_data.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ generate_training_data: tools/generate_training_data/CMakeFiles/generate_trainin
 
 # fast build rule for target.
 generate_training_data/fast:
-	cd /home/tad022002/WoodPixel && $(MAKE) -f tools/generate_training_data/CMakeFiles/generate_training_data.dir/build.make tools/generate_training_data/CMakeFiles/generate_training_data.dir/build
+	cd /home/thomas/Desktop/WoodPixel && $(MAKE) -f tools/generate_training_data/CMakeFiles/generate_training_data.dir/build.make tools/generate_training_data/CMakeFiles/generate_training_data.dir/build
 .PHONY : generate_training_data/fast
 
 generate_training_data.o: generate_training_data.cpp.o
@@ -131,7 +131,7 @@ generate_training_data.o: generate_training_data.cpp.o
 
 # target to build an object file
 generate_training_data.cpp.o:
-	cd /home/tad022002/WoodPixel && $(MAKE) -f tools/generate_training_data/CMakeFiles/generate_training_data.dir/build.make tools/generate_training_data/CMakeFiles/generate_training_data.dir/generate_training_data.cpp.o
+	cd /home/thomas/Desktop/WoodPixel && $(MAKE) -f tools/generate_training_data/CMakeFiles/generate_training_data.dir/build.make tools/generate_training_data/CMakeFiles/generate_training_data.dir/generate_training_data.cpp.o
 .PHONY : generate_training_data.cpp.o
 
 generate_training_data.i: generate_training_data.cpp.i
@@ -140,7 +140,7 @@ generate_training_data.i: generate_training_data.cpp.i
 
 # target to preprocess a source file
 generate_training_data.cpp.i:
-	cd /home/tad022002/WoodPixel && $(MAKE) -f tools/generate_training_data/CMakeFiles/generate_training_data.dir/build.make tools/generate_training_data/CMakeFiles/generate_training_data.dir/generate_training_data.cpp.i
+	cd /home/thomas/Desktop/WoodPixel && $(MAKE) -f tools/generate_training_data/CMakeFiles/generate_training_data.dir/build.make tools/generate_training_data/CMakeFiles/generate_training_data.dir/generate_training_data.cpp.i
 .PHONY : generate_training_data.cpp.i
 
 generate_training_data.s: generate_training_data.cpp.s
@@ -149,7 +149,7 @@ generate_training_data.s: generate_training_data.cpp.s
 
 # target to generate assembly for a file
 generate_training_data.cpp.s:
-	cd /home/tad022002/WoodPixel && $(MAKE) -f tools/generate_training_data/CMakeFiles/generate_training_data.dir/build.make tools/generate_training_data/CMakeFiles/generate_training_data.dir/generate_training_data.cpp.s
+	cd /home/thomas/Desktop/WoodPixel && $(MAKE) -f tools/generate_training_data/CMakeFiles/generate_training_data.dir/build.make tools/generate_training_data/CMakeFiles/generate_training_data.dir/generate_training_data.cpp.s
 .PHONY : generate_training_data.cpp.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/tad022002/WoodPixel && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/thomas/Desktop/WoodPixel && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

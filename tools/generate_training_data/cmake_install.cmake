@@ -1,4 +1,4 @@
-# Install script for directory: /home/tad022002/WoodPixel/tools/generate_training_data
+# Install script for directory: /home/thomas/Desktop/WoodPixel/tools/generate_training_data
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

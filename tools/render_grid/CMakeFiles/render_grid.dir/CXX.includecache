@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/tad022002/WoodPixel/tools/render_grid/render_grid.cpp
+/home/thomas/Desktop/WoodPixel/tools/render_grid/render_grid.cpp
 config.h
-/home/tad022002/WoodPixel/tools/render_grid/config.h
+/home/thomas/Desktop/WoodPixel/tools/render_grid/config.h
 iostream
 -
 boost/filesystem.hpp
@@ -24,11 +24,11 @@ opencv2/opencv.hpp
 opencv2/ximgproc.hpp
 -
 blob.hpp
-/home/tad022002/WoodPixel/tools/render_grid/blob.hpp
+/home/thomas/Desktop/WoodPixel/tools/render_grid/blob.hpp
 patch.hpp
-/home/tad022002/WoodPixel/tools/render_grid/patch.hpp
+/home/thomas/Desktop/WoodPixel/tools/render_grid/patch.hpp
 texture.hpp
-/home/tad022002/WoodPixel/tools/render_grid/texture.hpp
+/home/thomas/Desktop/WoodPixel/tools/render_grid/texture.hpp
 
 /usr/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp

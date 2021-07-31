@@ -1,4 +1,4 @@
-# Install script for directory: /home/tad022002/WoodPixel/tools/patches_from_edges
+# Install script for directory: /home/thomas/Desktop/WoodPixel/tools/patches_from_edges
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

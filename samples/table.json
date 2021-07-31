@@ -1,0 +1,29 @@
+{
+    "panels": [
+        {
+            "texture": "wood_texture.jpg",
+            "mask": "wood_mask.png",
+            "id": "furnier_01",
+            "scale": 0.7,
+            "dpi": 300.0,
+            "markers_table_mm": [
+                {
+                    "x": 9,
+                    "y": 8
+                },
+                {
+                    "x": 131,
+                    "y": 4
+                },
+                {
+                    "x": 135,
+                    "y": 294
+                }
+            ]
+        }
+    ],
+    "table_dimensions_mm": {
+        "width": 144,
+        "height": 307
+    }
+}

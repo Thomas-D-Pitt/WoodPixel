@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tad022002/WoodPixel
+CMAKE_SOURCE_DIR = /home/thomas/Desktop/WoodPixel
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tad022002/WoodPixel
+CMAKE_BINARY_DIR = /home/thomas/Desktop/WoodPixel
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/tad022002/WoodPixel && $(CMAKE_COMMAND) -E cmake_progress_start /home/tad022002/WoodPixel/CMakeFiles /home/tad022002/WoodPixel/tools/fit_patches/CMakeFiles/progress.marks
-	cd /home/tad022002/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/fit_patches/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tad022002/WoodPixel/CMakeFiles 0
+	cd /home/thomas/Desktop/WoodPixel && $(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/Desktop/WoodPixel/CMakeFiles /home/thomas/Desktop/WoodPixel/tools/fit_patches/CMakeFiles/progress.marks
+	cd /home/thomas/Desktop/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/fit_patches/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/Desktop/WoodPixel/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/tad022002/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/fit_patches/clean
+	cd /home/thomas/Desktop/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/fit_patches/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/tad022002/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/fit_patches/preinstall
+	cd /home/thomas/Desktop/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/fit_patches/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/tad022002/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/fit_patches/preinstall
+	cd /home/thomas/Desktop/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/fit_patches/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/tad022002/WoodPixel && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/thomas/Desktop/WoodPixel && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tools/fit_patches/CMakeFiles/fit_patches.dir/rule:
-	cd /home/tad022002/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/fit_patches/CMakeFiles/fit_patches.dir/rule
+	cd /home/thomas/Desktop/WoodPixel && $(MAKE) -f CMakeFiles/Makefile2 tools/fit_patches/CMakeFiles/fit_patches.dir/rule
 .PHONY : tools/fit_patches/CMakeFiles/fit_patches.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ fit_patches: tools/fit_patches/CMakeFiles/fit_patches.dir/rule
 
 # fast build rule for target.
 fit_patches/fast:
-	cd /home/tad022002/WoodPixel && $(MAKE) -f tools/fit_patches/CMakeFiles/fit_patches.dir/build.make tools/fit_patches/CMakeFiles/fit_patches.dir/build
+	cd /home/thomas/Desktop/WoodPixel && $(MAKE) -f tools/fit_patches/CMakeFiles/fit_patches.dir/build.make tools/fit_patches/CMakeFiles/fit_patches.dir/build
 .PHONY : fit_patches/fast
 
 fit_patches.o: fit_patches.cpp.o
@@ -131,7 +131,7 @@ fit_patches.o: fit_patches.cpp.o
 
 # target to build an object file
 fit_patches.cpp.o:
-	cd /home/tad022002/WoodPixel && $(MAKE) -f tools/fit_patches/CMakeFiles/fit_patches.dir/build.make tools/fit_patches/CMakeFiles/fit_patches.dir/fit_patches.cpp.o
+	cd /home/thomas/Desktop/WoodPixel && $(MAKE) -f tools/fit_patches/CMakeFiles/fit_patches.dir/build.make tools/fit_patches/CMakeFiles/fit_patches.dir/fit_patches.cpp.o
 .PHONY : fit_patches.cpp.o
 
 fit_patches.i: fit_patches.cpp.i
@@ -140,7 +140,7 @@ fit_patches.i: fit_patches.cpp.i
 
 # target to preprocess a source file
 fit_patches.cpp.i:
-	cd /home/tad022002/WoodPixel && $(MAKE) -f tools/fit_patches/CMakeFiles/fit_patches.dir/build.make tools/fit_patches/CMakeFiles/fit_patches.dir/fit_patches.cpp.i
+	cd /home/thomas/Desktop/WoodPixel && $(MAKE) -f tools/fit_patches/CMakeFiles/fit_patches.dir/build.make tools/fit_patches/CMakeFiles/fit_patches.dir/fit_patches.cpp.i
 .PHONY : fit_patches.cpp.i
 
 fit_patches.s: fit_patches.cpp.s
@@ -149,7 +149,7 @@ fit_patches.s: fit_patches.cpp.s
 
 # target to generate assembly for a file
 fit_patches.cpp.s:
-	cd /home/tad022002/WoodPixel && $(MAKE) -f tools/fit_patches/CMakeFiles/fit_patches.dir/build.make tools/fit_patches/CMakeFiles/fit_patches.dir/fit_patches.cpp.s
+	cd /home/thomas/Desktop/WoodPixel && $(MAKE) -f tools/fit_patches/CMakeFiles/fit_patches.dir/build.make tools/fit_patches/CMakeFiles/fit_patches.dir/fit_patches.cpp.s
 .PHONY : fit_patches.cpp.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/tad022002/WoodPixel && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/thomas/Desktop/WoodPixel && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

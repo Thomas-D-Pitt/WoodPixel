@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/tad022002/WoodPixel/tools/patches_from_segmentation/patches_from_segmentation.cpp
+/home/thomas/Desktop/WoodPixel/tools/patches_from_segmentation/patches_from_segmentation.cpp
 config.h
-/home/tad022002/WoodPixel/tools/patches_from_segmentation/config.h
+/home/thomas/Desktop/WoodPixel/tools/patches_from_segmentation/config.h
 iostream
 -
 random
@@ -26,11 +26,11 @@ boost/property_tree/ptree.hpp
 opencv2/opencv.hpp
 -
 bezier_curve.hpp
-/home/tad022002/WoodPixel/tools/patches_from_segmentation/bezier_curve.hpp
+/home/thomas/Desktop/WoodPixel/tools/patches_from_segmentation/bezier_curve.hpp
 blob.hpp
-/home/tad022002/WoodPixel/tools/patches_from_segmentation/blob.hpp
+/home/thomas/Desktop/WoodPixel/tools/patches_from_segmentation/blob.hpp
 patch_region.hpp
-/home/tad022002/WoodPixel/tools/patches_from_segmentation/patch_region.hpp
+/home/thomas/Desktop/WoodPixel/tools/patches_from_segmentation/patch_region.hpp
 
 /usr/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp

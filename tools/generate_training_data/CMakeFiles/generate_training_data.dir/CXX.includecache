@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/tad022002/WoodPixel/tools/generate_training_data/generate_training_data.cpp
+/home/thomas/Desktop/WoodPixel/tools/generate_training_data/generate_training_data.cpp
 config.h
-/home/tad022002/WoodPixel/tools/generate_training_data/config.h
+/home/thomas/Desktop/WoodPixel/tools/generate_training_data/config.h
 iomanip
 -
 iostream
@@ -24,7 +24,7 @@ boost/property_tree/json_parser.hpp
 boost/property_tree/ptree.hpp
 -
 tree_match.hpp
-/home/tad022002/WoodPixel/tools/generate_training_data/tree_match.hpp
+/home/thomas/Desktop/WoodPixel/tools/generate_training_data/tree_match.hpp
 
 /usr/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp

@@ -1,4 +1,4 @@
-# Install script for directory: /home/tad022002/WoodPixel/lib
+# Install script for directory: /home/thomas/Desktop/WoodPixel/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

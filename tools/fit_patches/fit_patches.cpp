@@ -35,6 +35,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 #include "tree_match.hpp"
 
+
+
 //const float pi = boost::math::constants::pi<float>();
 
 namespace fs = boost::filesystem;
@@ -206,8 +208,10 @@ int main(int argc, char *argv[])
   matcher.target().response.render();
   matcher.textures()[0][0].response.render();
   */
-  int count = 0;
-  int patches_to_fit = patches_old.size();
+  int count = 1;
+  int total_count = matcher.num_regions();
+    
+
   try
   {
     while (matcher.find_next_patch_adaptive())
@@ -245,7 +249,7 @@ int main(int argc, char *argv[])
         }
       }
       
-      std::cout << "fit patch " << count << "/" << patches_to_fit << std::endl;
+      std::cout << "fit patch " << count << "/" << total_count << std::endl;
       count++;
 
       if (visualization)

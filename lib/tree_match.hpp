@@ -96,6 +96,11 @@ public:
     return static_cast<int>(m_textures.size());
   }
 
+  int num_regions() const
+  {
+    return static_cast<int>(m_reconstruction_regions.size());
+  }
+
   void downsample(int factor);
 
   void save(int target_index, boost::filesystem::path path) const;

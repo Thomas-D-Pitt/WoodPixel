@@ -5,7 +5,22 @@
       "mask": "wood_mask.png",
       "id": "furnier_01",
       "scale": 0.7,
-      "dpi": 300.0
+      "dpi": 300.0,
+      
+      "markers_pixel": [
+        {
+          "x": 111,
+          "y": 80
+        },
+        {
+          "x": 1553,
+          "y": 37
+        },
+        {
+          "x": 1594,
+          "y": 3475
+        }
+      ]
     }
   ],
   "targets": [

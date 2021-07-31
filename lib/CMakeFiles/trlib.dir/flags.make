@@ -6,5 +6,5 @@ CXX_FLAGS =  -fopenmp
 
 CXX_DEFINES = -DHAVE_CONFIG_H -D_CRT_SECURE_NO_WARNINGS -D_SCL_SECURE_NO_WARNINGS
 
-CXX_INCLUDES = -I/home/tad022002/WoodPixel -I/usr/include/opencv4 -I/home/tad022002/WoodPixel/lib 
+CXX_INCLUDES = -I/home/thomas/Desktop/WoodPixel -I/usr/include/opencv4 -I/home/thomas/Desktop/WoodPixel/lib 
 
